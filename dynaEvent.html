@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Event Handling</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Rick Martin">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <p>Click on "Add a Button" to add a button to the div element. Each button will display an incremented number. Those buttons will have the same event handler for the Click event. The handler will 
+  update the "Which Button Last Clicked" with the button number.
+  <body>
+	<br>
+    <button id="masterButton" type="button">Add a Button</button>
+	<div id="buttons">
+	</div>
+	<br>
+	<p id="lastClicked">Which button last Clicked: </p>
+	<br>
+	<button id="promiseButton" type="button">Initiate Promise</button>
+	<p id="promiseStatus"></p>
+	<p id="promiseCountDown"></p>
+	
+ 	<script src="./javascript/dynaevent.js"></script>
+  </body>
+</html>
